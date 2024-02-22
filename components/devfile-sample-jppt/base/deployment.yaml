@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jppt
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0051-tenant/tkrw-pr712-0075-0051-app/devfile-sample-jppt@sha256:044d8752ddc21cac8c03b4baa75d863fe27ab5aac234a7052d55c3cbf2155334
         name: my-nodejs
         ports:
         - containerPort: 3001
